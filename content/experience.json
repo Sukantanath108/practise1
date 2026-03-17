@@ -1,0 +1,41 @@
+[
+    {
+        "role": "Co-founder & Software Team Lead",
+        "organization": "CUET Mongolchari — Mars Rover Team",
+        "period": "Dec 2024 – Present",
+        "description": [
+            "Architecting the autonomous navigation stack for a URC 2027-targeting Mars rover, with edge inference on Jetson Orin Nano",
+            "Leading a 30+ member cross-disciplinary team, synchronizing hardware fabrication timelines with software milestones",
+            "Establishing CUET's first-ever University Rover Challenge team — building institutional research infrastructure from scratch"
+        ]
+    },
+    {
+        "role": "Head of Graphics & Illustrations",
+        "organization": "Hult Prize at CUET",
+        "period": "Nov 2025 – Present",
+        "description": [
+            "Promoted from Secretary to Head of Department after team received 'Best Organizing Team' recognition",
+            "Directing data-driven visual content strategy across multiple departments for one of the world's largest student competitions",
+            "Demonstrated leadership trajectory: contributor → secretary → department head"
+        ]
+    },
+    {
+        "role": "Assistant Treasurer",
+        "organization": "CUET Chess Club",
+        "period": "Oct 2024 – Present",
+        "description": [
+            "Secured 25,000 BDT in sponsorships and executed the 1st CUET International Rapid Open Tournament (140+ participants)",
+            "Managed event logistics and budgets, progressing from Joint Technical Secretary to Assistant Treasurer",
+            "Organized Freshers' Chess Talent Hunt 2024 with 70+ active participants"
+        ]
+    },
+    {
+        "role": "Campus Ambassador",
+        "organization": "IEEE CUET Student Branch",
+        "period": "April – July 2024",
+        "description": [
+            "Drove 20+ cross-university registrations through targeted outreach and networking strategy",
+            "Coordinated inter-university ambassador teams for event logistics and communications"
+        ]
+    }
+]

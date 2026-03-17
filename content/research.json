@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Autonomous Navigation in Unstructured Environments",
+        "description": "Vision-based SLAM, path planning, and obstacle avoidance for mobile robots operating in GPS-denied or degraded terrains"
+    },
+    {
+        "title": "Computer Vision for Industrial Quality Control",
+        "description": "Real-time defect detection and classification in manufacturing pipelines using deep learning and edge deployment"
+    },
+    {
+        "title": "Predictive Maintenance with Sensor Fusion",
+        "description": "Combining vibration, thermal, and visual data with ML models to predict mechanical failure before it occurs"
+    },
+    {
+        "title": "Edge AI for Resource-Constrained Robotics",
+        "description": "Optimizing deep learning inference for embedded platforms (Jetson, Coral) in field-deployable autonomous systems"
+    },
+    {
+        "title": "Digital Twins for Manufacturing",
+        "description": "Bridging CAD/simulation expertise with data-driven modeling to create predictive digital replicas of physical systems"
+    },
+    {
+        "title": "Human-Robot Interaction in Industrial Settings",
+        "description": "Safe, intuitive co-bot systems where mechanical design and AI perception intersect"
+    }
+]

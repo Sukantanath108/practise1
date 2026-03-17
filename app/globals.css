@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========================================
+   Theme Variables
+   ======================================== */
+:root {
+  --background: #F6F2EA;
+  --surface: #FFFFFF;
+  --border: #E5E1D8;
+  --text-primary: #1A1A2E;
+  --text-secondary: #4A4A5A;
+  --text-muted: #6B6B7B;
+  --accent: #7B1FA2;
+  --accent-light: #9C27B0;
+  --accent-dim: #5C1680;
+  --accent-glow: rgba(123, 31, 162, 0.15);
+}
+
+.dark {
+  --background: #050506;
+  --surface: #0D0D0F;
+  --border: #1A1A1F;
+  --text-primary: #F0F0F5;
+  --text-secondary: #B0B0C0;
+  --text-muted: #6B6B7B;
+  --accent: #7B1FA2;
+  --accent-light: #9C27B0;
+  --accent-dim: #5C1680;
+  --accent-glow: rgba(123, 31, 162, 0.25);
+}
+
+/* ========================================
+   Base Styles
+   ======================================== */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-poppins), 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ========================================
+   Typography
+   ======================================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-fira-sans), 'Fira Sans', sans-serif;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* ========================================
+   Section Styles
+   ======================================== */
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-2;
+  color: var(--text-primary);
+}
+
+.section-subtitle {
+  @apply text-base md:text-lg mb-10;
+  color: var(--text-muted);
+}
+
+/* ========================================
+   Card Styles
+   ======================================== */
+.card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px var(--accent-glow);
+  border-color: var(--accent);
+}
+
+/* ========================================
+   Accent Button
+   ======================================== */
+.btn-accent {
+  @apply px-6 py-3 rounded-xl font-medium text-sm transition-all duration-200;
+  background: linear-gradient(135deg, var(--accent), var(--accent-light));
+  color: #FFFFFF;
+}
+
+.btn-accent:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px var(--accent-glow);
+}
+
+.btn-outline {
+  @apply px-6 py-3 rounded-xl font-medium text-sm transition-all duration-200;
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ========================================
+   Skill Chip
+   ======================================== */
+.skill-chip {
+  @apply px-3 py-1.5 rounded-lg text-sm font-medium transition-all duration-200;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+
+.skill-chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.skill-chip-accent {
+  @apply px-3 py-1.5 rounded-lg text-sm font-medium;
+  background: var(--accent-glow);
+  border: 1px solid var(--accent);
+  color: var(--accent-light);
+}
+
+/* ========================================
+   Scrollbar (for dark mode)
+   ======================================== */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #0D0D0F;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #2A2A35;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #3A3A45;
+}
+
+/* ========================================
+   Selection
+   ======================================== */
+::selection {
+  background-color: var(--accent);
+  color: #FFFFFF;
+}
+
+/* ========================================
+   Fade-in animation for sections
+   ======================================== */
+.section-animate {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.section-animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ========================================
+   Placeholder badge
+   ======================================== */
+.placeholder-badge {
+  @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium;
+  background: var(--accent-glow);
+  color: var(--accent-light);
+  border: 1px solid var(--accent);
+}

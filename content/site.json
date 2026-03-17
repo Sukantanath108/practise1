@@ -1,0 +1,31 @@
+{
+    "name": "Sukanta Nath",
+    "headline": "Building Autonomous Systems — From Mars Rovers to Smart Factories",
+    "subheadline": "Mechanical Engineering @ CUET · AI/ML · Autonomous Navigation · Computer Vision",
+    "cta": [
+        {
+            "label": "View My Projects",
+            "href": "#projects",
+            "primary": true
+        },
+        {
+            "label": "Research Interests",
+            "href": "#research",
+            "primary": false
+        },
+        {
+            "label": "Download CV",
+            "href": "/Sukanta_Nath_CV.pdf",
+            "primary": false
+        }
+    ],
+    "about": "I'm a Mechanical Engineering student at CUET (CGPA 3.82) building at the intersection of physical systems and artificial intelligence. My trajectory has been deliberate: from mastering mechanical design and earning a SOLIDWORKS certification, to completing DeepLearning.AI's ML Specialization and co-founding a Mars Rover team targeting the University Rover Challenge 2027.\n\nI work on problems where AI meets the real world — autonomous rover navigation using edge computing (Jetson Orin Nano), AI-powered service platforms, and industrial applications of computer vision. I've led cross-functional teams of 30+ members, placed in national AI hackathons, and maintained a merit scholarship for five consecutive semesters.\n\nI'm now seeking graduate research opportunities in applied ML — particularly in autonomous systems, predictive manufacturing, and vision-based quality control.",
+    "contact": {
+        "email": "nathsukanta007@gmail.com",
+        "phone": "+880-1310079679",
+        "linkedin": "https://www.linkedin.com/in/sukanta-nath",
+        "github": "https://github.com/Sukantanath108",
+        "location": "Chittagong, Bangladesh"
+    },
+    "profileImage": "/profile.jpg"
+}

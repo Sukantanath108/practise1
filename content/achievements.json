@@ -1,0 +1,44 @@
+{
+    "achievements": [
+        {
+            "title": "Best University Team — AI-FICATION (ASR Hackathon)",
+            "description": "Built an ASR system that placed 9th nationally among 63 teams; recognized as CUET's top-performing team",
+            "year": "2025"
+        },
+        {
+            "title": "Top 100 — SOLVIO AI Hackathon",
+            "description": "Developed AURA AI Concierge, an end-to-end AI service platform, ranking in the top 100 of 538 nationwide teams",
+            "year": "2025"
+        },
+        {
+            "title": "Top 5 Finalist — ASME EFx Bangladesh",
+            "description": "Designed a sustainable engineering solution ranked in the top 5 nationally for environmental impact",
+            "year": "2024"
+        },
+        {
+            "title": "University Merit Scholarship",
+            "description": "Maintained top-tier CGPA in Mechanical Engineering for 5 consecutive semesters at CUET",
+            "year": "2023 – Present"
+        }
+    ],
+    "certifications": [
+        {
+            "title": "Machine Learning Specialization",
+            "issuer": "DeepLearning.AI",
+            "year": "2025",
+            "description": "Foundational ML knowledge — supervised, unsupervised, and reinforcement learning"
+        },
+        {
+            "title": "Certified SOLIDWORKS Associate (CSWA)",
+            "issuer": "Dassault Systèmes",
+            "year": "2024",
+            "description": "Professional competency in 3D solid modeling, assembly creation, and engineering drawings"
+        },
+        {
+            "title": "3DSwymmer Associate",
+            "issuer": "Dassault Systèmes",
+            "year": "2024",
+            "description": "Cloud-based PLM and collaborative engineering workflows on the 3DEXPERIENCE platform"
+        }
+    ]
+}

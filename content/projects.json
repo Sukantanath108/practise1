@@ -1,0 +1,143 @@
+{
+    "featured": [
+        {
+            "id": "mars-rover",
+            "title": "CUET Mars Rover — Autonomous Navigation System",
+            "status": "Active",
+            "period": "Dec 2024 – Present",
+            "problem": "Designing a fully autonomous Mars rover capable of GPS-denied terrain navigation for the University Rover Challenge 2027 — one of the most competitive collegiate robotics events globally.",
+            "built": [
+                "Technical roadmap for autonomous navigation on the Jetson Orin Nano edge platform",
+                "Sensor fusion pipeline (camera + IMU + GPS fallback) for traversal planning",
+                "Cross-functional coordination across Mechanical, Electrical, Science, and Software teams (30+ members)"
+            ],
+            "technologies": [
+                "Python",
+                "Jetson Orin Nano",
+                "Computer Vision",
+                "SolidWorks",
+                "Edge Computing"
+            ],
+            "results": [
+                "Leading a 30+ member cross-departmental team",
+                "First CUET team to target URC — establishing institutional precedent",
+                "Tangible proof of ME + AI convergence"
+            ],
+            "alignment": "Core project demonstrating autonomous systems capability — directly aligns with robotics and computer vision research interests.",
+            "github": "",
+            "demo": "",
+            "image": ""
+        },
+        {
+            "id": "aura-ai",
+            "title": "AURA AI Concierge — AI-Powered Service Discovery Platform",
+            "status": "Completed",
+            "period": "Oct – Nov 2025",
+            "problem": "Service marketplaces lack intelligent matching — users can't describe problems in natural language and get instant diagnosis, pricing, and provider booking.",
+            "built": [
+                "Full-stack AI platform using React + Tailwind CSS with conversational AI (Voiceflow)",
+                "Real-time automated diagnosis and fixed-price quoting from natural language input",
+                "Job dispatch system via Make.com webhooks with a Kanban-style provider dashboard",
+                "Multi-step identity verification pipeline (NID upload) for trust and safety",
+                "Provider dashboard with real-time notifications, job history, availability toggle"
+            ],
+            "technologies": [
+                "React",
+                "Tailwind CSS",
+                "Voiceflow",
+                "Make.com",
+                "npm",
+                "Webhooks"
+            ],
+            "results": [
+                "End-to-end autonomous user journey from problem → diagnosis → booking",
+                "Top 100 out of 538 teams (SOLVIO AI Hackathon)",
+                "Demonstrates full product architecture skills"
+            ],
+            "alignment": "Shows product engineering and AI integration ability — proving capacity to ship complex, real-world systems.",
+            "github": "",
+            "demo": "",
+            "image": ""
+        },
+        {
+            "id": "asr-hackathon",
+            "title": "AI-FICATION — Automatic Speech Recognition System",
+            "status": "Completed",
+            "period": "2025",
+            "problem": "Building a high-accuracy ASR (Automatic Speech Recognition) system under hackathon constraints — a signal processing + deep learning challenge.",
+            "built": [
+                "End-to-end ASR pipeline for speech-to-text conversion",
+                "Audio preprocessing and feature extraction pipeline",
+                "Deep learning model training and optimization"
+            ],
+            "technologies": [
+                "Python",
+                "PyTorch",
+                "Audio Processing",
+                "Deep Learning"
+            ],
+            "results": [
+                "9th place nationally among 63 teams",
+                "Best University Team recognition from CUET",
+                "Demonstrates core ML competency in a non-trivial domain"
+            ],
+            "alignment": "Pure ML project with strong competition results — validates deep learning implementation skills.",
+            "github": "",
+            "demo": "",
+            "image": ""
+        }
+    ],
+    "other": [
+        {
+            "id": "ml-specialization",
+            "title": "Machine Learning Specialization Projects",
+            "description": "Implemented supervised learning (linear/logistic regression, neural networks), unsupervised learning (clustering, dimensionality reduction), and reinforcement learning concepts through DeepLearning.AI coursework.",
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "NumPy",
+                "Matplotlib"
+            ],
+            "github": "",
+            "period": "Jan 2025"
+        },
+        {
+            "id": "solidworks-design",
+            "title": "Mechanical Design Portfolio",
+            "description": "Professional-grade 3D solid modeling, assembly creation, and engineering drawings completed as part of CSWA certification — demonstrating mechanical engineering foundation.",
+            "technologies": [
+                "SolidWorks",
+                "3D Modeling",
+                "Engineering Drawing"
+            ],
+            "github": "",
+            "period": "July 2024"
+        },
+        {
+            "id": "asme-efx",
+            "title": "ASME EFx Sustainable Engineering Solution",
+            "description": "Designed a sustainable engineering solution focused on environmental impact, ranked in the top 5 nationally at the ASME EFx Bangladesh Environmental Case Competition.",
+            "technologies": [
+                "Systems Thinking",
+                "Engineering Analysis",
+                "Sustainability"
+            ],
+            "github": "",
+            "period": "2024"
+        },
+        {
+            "id": "cv-placeholder",
+            "title": "Computer Vision — Industrial Defect Detection",
+            "description": "Currently developing a real-time defect detection system for manufacturing quality control using YOLOv8 and edge deployment. Coming soon.",
+            "technologies": [
+                "Python",
+                "YOLOv8",
+                "OpenCV",
+                "Computer Vision"
+            ],
+            "github": "",
+            "period": "Coming Soon",
+            "placeholder": true
+        }
+    ]
+}

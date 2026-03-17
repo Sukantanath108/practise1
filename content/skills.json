@@ -1,0 +1,56 @@
+{
+    "highlight": [
+        {
+            "category": "AI / Machine Learning",
+            "skills": [
+                "PyTorch",
+                "TensorFlow",
+                "Neural Networks",
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning"
+            ]
+        },
+        {
+            "category": "Programming",
+            "skills": [
+                "Python",
+                "C"
+            ]
+        }
+    ],
+    "supporting": [
+        {
+            "category": "Data & Visualization",
+            "skills": [
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Streamlit"
+            ]
+        },
+        {
+            "category": "Developer Tools",
+            "skills": [
+                "Git / GitHub",
+                "Docker",
+                "LaTeX"
+            ]
+        },
+        {
+            "category": "Mechanical Engineering",
+            "skills": [
+                "SolidWorks (CSWA)",
+                "3D Modeling",
+                "Assembly Design",
+                "Engineering Drawing"
+            ]
+        }
+    ],
+    "other": [
+        "MATLAB",
+        "MS PowerPoint",
+        "Adobe Illustrator",
+        "Canva"
+    ]
+}
