@@ -12,7 +12,7 @@ export default function Hero() {
 
     return (
         <section
-            id="hero"
+            id="home"
             className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden"
         >
             {/* Ambient background glow */}
